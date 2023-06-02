@@ -4,6 +4,33 @@
   grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
 }
 
+.links {
+    display:inline-flex;  
+}
+
+.links-1 {
+    /* background-color: rgb(141, 224, 235); */
+    width: 50px;
+    height: 1px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    /* border-radius: 10px; */
+    
+}
+
+
+
+.links-2 {
+    /* background-color: rgb(141, 224, 235); */
+    width: 50px;
+    
+    height: 1px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    /* border-radius: 10px; */
+}
+
+
 .title {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -58,6 +85,11 @@ nav ul a {
   color: black;
 }
 
+.social {
+    text-decoration: none;
+  color: black;
+}
+
 .muay {
   text-decoration: none;
   color: #008cba;
@@ -83,7 +115,7 @@ ul {
   grid-column-start: 5;
   grid-row-end: 7;
   grid-column-end: 12;
-  border: #333 solid;
+  /* border: #333 solid; */
   border-radius: 10px;
   text-align: center;
   text-transform: uppercase;
