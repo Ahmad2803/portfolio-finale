@@ -1,0 +1,121 @@
+.container {
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+.title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitle-1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitle-2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio-sub {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bio {
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 50px;
+  text-align: center;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+}
+
+.work {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pic {
+  width: 300px;
+  grid-column-start: 8;
+  margin-right: 0px;
+  border-radius: 10px;
+  box-shadow: -31px 50px 100px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.muay {
+  text-decoration: none;
+  color: #008cba;
+}
+
+nav ul {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.image {
+  grid-row-start: 2;
+
+  grid-column-end: 8;
+}
+
+.name-tag {
+  /* background-color: rgb(215, 250, 222); */
+  grid-row-start: 7;
+  grid-column-start: 5;
+  grid-row-end: 7;
+  grid-column-end: 12;
+  border: #333 solid;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-me {
+  background-color: rgb(195, 200, 226);
+  grid-row-start: 9;
+  grid-column-start: 2;
+  grid-row-end: 11;
+  grid-column-end: 15;
+  word-wrap: break-word;
+  padding-bottom: 10px;
+  border: #333 solid;
+  border-radius: 10px;
+}
+
+.projects {
+  background-color: rgb(195, 200, 226);
+  grid-row-start: 12;
+  grid-column-start: 3;
+  grid-row-end: 14;
+  grid-column-end: 14;
+  border: #333 solid;
+  border-radius: 10px;
+}
+
+.footer {
+  grid-row-start: 16;
+  grid-column-start: 3;
+  grid-row-end: 15;
+  text-align: center;
+  grid-column-end: 14;
+}
